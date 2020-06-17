@@ -28,7 +28,8 @@ void display(double currentTime) {
 	// background
 	//float m = ((int) currentTime % 2 == 0) ? 0.0f : 1.0f;
 	//glClearColor(1.0f, m, 0.0f, 0.0f);
-	glClearColor(1.0f, 1.0f, 0.5f, 0.0f);
+	//glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
+	glClearColor(0.5f, 0.0f, 1.0f, 0.0f);
 	glClear( GL_COLOR_BUFFER_BIT);
 }
 
@@ -50,7 +51,7 @@ int main( void ){
 
 	// Open a window and create its OpenGL context
 	// parameters width, height, title, monitor and share
-	window = glfwCreateWindow(800, 800, "Lab00: Display Context and Window", NULL, NULL);
+	window = glfwCreateWindow(800, 800, "David Dominick Albornoz Trejo", NULL, NULL);
 
 	// Make windows to Context Current
 	glfwMakeContextCurrent(window);

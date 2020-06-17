@@ -1,2 +1,5 @@
-# computer-graphics
-In this repository you find a lot of exercises of OpenGL Modern
+## COMPUTACiÓN GRÁFICA Y VISUAL 2020
+
+## DaviD AlbornoZ
+
+- Lab00
